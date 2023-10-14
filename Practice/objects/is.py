@@ -1,0 +1,12 @@
+print('-'*80, end='\n\n')
+print('id(0):', id(0))
+print('id(1):', id(1))
+print('id(True):', id(True))
+print('id(False):', id(False), end='\n\n')
+print('-'*80, end='\n\n')
+
+print('0 == False:', 0 == False)
+print('1 == True:', 1 == True)
+print('0 is False:', 0 is False) # то же самое что id(0) == id(False)
+print('1 is True:', 1 is True, end='\n\n')
+print('-'*80, end='\n\n')
